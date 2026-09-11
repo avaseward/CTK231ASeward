@@ -1,50 +1,67 @@
-.h1class{
-    color:red;
+body {
+    background-color: #999999;
+    background-image: url(linklaying.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main {
+    background-color: #0000FF;
+}
+
+.imgbox {
+    border: 2px solid red; 
+    padding: 10px;
+    margin: 20px;
+    background-color: blue;
+}
+
+.fontclass {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fontcombined { 
+    font: bold 12px Courier, monospace;
+}
+
+.boxmodel {
+    border: 2px solid #0000FF;
+    padding: 20px; 
+    margin: 10px 10px;
     background-color: green;
 }
 
-.h2class {
-    color: #9036c9;
-    background-color: #6fc936;
+.zeroout {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    border: 1px solid black;
 }
 
-.h3class {
-    color: #de21ad;
-    background-color: #23dc4f;
+.textright {
+    text-align: right;
 }
 
-.h4class {
-    color: #3a6ac5;
-    background-color: #c5983a;
+.textleft {
+    text-align: left;
+    letter-spacing: 20px;
 }
 
-.paraClass {
-    color: #f30c1f;
-    background-color: #0ef1e3;
+.textcenter {
+    text-align: center;
+    line-height: 48px;
 }
 
-a:link {
-    color: red;
+.textjustify {
+    text-align: justify;
 }
-
-a:visited {
-    color: green;
-}
-
-a:hover {
-    color: yellow;
-}
-
-#div1 {
-    color: purple;
-    background-color: orange;
-}
-
-#span1 {
-    color: pink;
-    background-color: red;
-}
-
-
-
 
