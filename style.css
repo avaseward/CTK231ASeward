@@ -1,67 +1,54 @@
-body {
-    background-color: #999999;
-    background-image: url(linklaying.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
+/*Anything between these two tags will be ignored by the browser*/
 
 h1 {
-    font-size: 16px;
-    font-weight: normal;
+    color: red;
+}
+/*
+p {
+    color: #ff3366;
+    background-color: #00FF00;
+}
+*/
+.specialp {
+        color:blue;
+        background-color: #FF0000;
 }
 
-main {
-    background-color: #0000FF;
+#specialID {
+    color : green;
+    background-color: #ffff33f9;
 }
 
-.imgbox {
-    border: 2px solid red; 
-    padding: 10px;
-    margin: 20px;
-    background-color: blue;
+.orangebg {
+    background-color: orange;
 }
 
-.fontclass {
-    font-family:Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 24px;
+.spanstyle {
+    color : blue;
 }
 
-.fontcombined { 
-    font: bold 12px Courier, monospace;
+a {
+    color : #ff0000;
+    text-decoration: none;
 }
 
-.boxmodel {
-    border: 2px solid #0000FF;
-    padding: 20px; 
-    margin: 10px 10px;
-    background-color: green;
+a:link {
+    color : #00FF00;
 }
 
-.zeroout {
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    border: 1px solid black;
+a:visited {
+    color: #0000ff;
 }
 
-.textright {
-    text-align: right;
+a:active {
+    color: #00FFFF
 }
 
-.textleft {
-    text-align: left;
-    letter-spacing: 20px;
+a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
 }
 
-.textcenter {
-    text-align: center;
-    line-height: 48px;
+footer {
+    color : green;
 }
-
-.textjustify {
-    text-align: justify;
-}
-
