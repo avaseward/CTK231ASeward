@@ -1,0 +1,50 @@
+.h1class{
+    color:red;
+    background-color: green;
+}
+
+.h2class {
+    color: #9036c9;
+    background-color: #6fc936;
+}
+
+.h3class {
+    color: #de21ad;
+    background-color: #23dc4f;
+}
+
+.h4class {
+    color: #3a6ac5;
+    background-color: #c5983a;
+}
+
+.paraClass {
+    color: #f30c1f;
+    background-color: #0ef1e3;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#div1 {
+    color: purple;
+    background-color: orange;
+}
+
+#span1 {
+    color: pink;
+    background-color: red;
+}
+
+
+
+
