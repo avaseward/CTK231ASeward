@@ -1,0 +1,111 @@
+header {
+    font-family: Arial, Helvetica;
+}
+
+body{
+    background-image: url(linklaying.jpg)
+}
+
+nav {
+    font-family: Arial, Helvetica;
+}
+
+main {
+    font-family: Arial, Helvetica;
+}
+
+.h1class{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.h2class {
+   color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.h3class {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.h4class {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.paraClass {
+    color: #f30c1f;
+    background-color: #0ef1e3;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+.paraClass {
+    color: #f30c1f;
+    background-color: #0ef1e3;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#div1 {
+    color: purple;
+    background-color: orange;
+}
+
+#span1 {
+    color: pink;
+    background-color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#div1 {
+    color: purple;
+    background-color: orange;
+}
+
+#span1 {
+    color: pink;
+    background-color: red;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.imageBorder {
+    border: 30px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+
+
