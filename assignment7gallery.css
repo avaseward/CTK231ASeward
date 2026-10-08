@@ -1,0 +1,28 @@
+
+#section1 {
+    grid-column: span 4;
+
+    padding: 10px;
+
+    background-color: white;
+}
+
+#section2 {
+    grid-column: span 4;
+
+    padding: 10px;
+
+    background-color: white;
+}
+
+#section3 {
+    grid-column: span 4;
+
+    padding: 10px;
+
+    background-color: white;
+}
+
+.floatimg {
+    width: 360px;
+}
