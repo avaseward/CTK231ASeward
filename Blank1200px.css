@@ -1,0 +1,90 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  text-align: center;
+  grid-column: span 12;
+}
+
+.aboutParagraph {
+  text-align: center;
+  grid-column: span 12;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  border: 0px solid grey;
+  width: 130px;
+  background-color: grey;
+
+  display: inline-block;
+
+  text-decoration: none;
+}
+
+nav li a {
+  display: block;
+  padding: 15px;
+
+  font-size: 24px;
+  text-align: center;
+
+  
+}
+
+.currentPage {
+  color: white;
+  background-color: #454545;
+}
+
+.firstNavButton {
+  margin-left: 300px;
+}
+
+nav li a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+h2 {
+  grid-column: span 12;
+  margin-left: 550px;
+  font-size: 26px;
+}
+
+.floatImage {
+  grid-column: span 3;
+  width: 500px;
+}
+
+.demo1Class {
+  grid-column: span 9;
+
+  text-align: center;
+}
+
+
