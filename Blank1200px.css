@@ -24,6 +24,8 @@ h1 {
 
   margin-left: 200px;
   margin-right: 200px;
+
+  font-family: "Special Elite", system-ui;
 }
 
 nav {
@@ -44,6 +46,8 @@ nav li {
   display: inline-block;
 
   text-decoration: none;
+
+  border-radius:15px;
 }
 
 nav li a {
@@ -53,7 +57,9 @@ nav li a {
   font-size: 24px;
   text-align: center;
 
-  
+  border-radius:15px;
+
+   transition: background-color 1.0s, width 1.0s, color 1.0s;
 }
 
 .currentPage {
@@ -70,9 +76,15 @@ nav li a:hover {
   color: black;
 }
 
-h2 {
+.magnoliatitle {
   grid-column: span 12;
   margin-left: 550px;
+  font-size: 26px;
+}
+
+.oottitle {
+  grid-column: span 12;
+  margin-left: 380px;
   font-size: 26px;
 }
 
@@ -81,10 +93,30 @@ h2 {
   width: 500px;
 }
 
-.demo1Class {
-  grid-column: span 9;
+.demoClass {
+  grid-column: span 8;
 
   text-align: center;
+
+  font-family: "Special Elite", system-ui;
 }
+
+.shortDescription {
+  grid-column: span 12;
+  color: grey;
+  margin-left: 540px;
+}
+
+footer {
+  grid-column: span 12;
+  margin: 25px;
+}
+
+footer a{
+  font-size: 50px;
+  color: black;
+}
+
+
 
 
